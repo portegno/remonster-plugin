@@ -15,6 +15,8 @@ skill that knows how to compose with them. The presets themselves come from
 /plugin install remonster-titles@remonster
 ```
 
+Nothing to configure. The catalogue server is public and holds no account.
+
 ## What it adds
 
 **A catalogue over MCP.** Four read-only tools: list the families, list or
