@@ -7,11 +7,26 @@
   "plugins": [
     {
       "name": "remonster-titles",
+      "displayName": "Remonster Titles",
       "source": "./",
       "version": "1.0.0",
       "description": "Sixty-one deterministic animated title presets for Remotion, in sixteen families and twenty-four typefaces.",
-      "category": "productivity",
-      "keywords": ["remotion", "video", "titles", "animation"]
+      "author": {
+        "name": "Portegno",
+        "url": "https://remonster.io"
+      },
+      "homepage": "https://remonster.io",
+      "repository": "https://github.com/portegno/remonster-plugin",
+      "category": "Design",
+      "keywords": [
+        "remotion",
+        "video",
+        "titles",
+        "animation",
+        "motion-graphics",
+        "react"
+      ]
     }
-  ]
+  ],
+  "description": "Animated title presets for Remotion, as a catalogue an agent can read."
 }
