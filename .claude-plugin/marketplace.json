@@ -1,0 +1,17 @@
+{
+  "name": "remonster",
+  "owner": {
+    "name": "Portegno",
+    "url": "https://remonster.io"
+  },
+  "plugins": [
+    {
+      "name": "remonster-titles",
+      "source": "./",
+      "version": "1.0.0",
+      "description": "Sixty-one deterministic animated title presets for Remotion, in sixteen families and twenty-four typefaces.",
+      "category": "productivity",
+      "keywords": ["remotion", "video", "titles", "animation"]
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "remonster-titles": {
+      "type": "http",
+      "url": "https://npm.remonster.io/mcp"
+    }
+  }
+}
