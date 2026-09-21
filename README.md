@@ -45,8 +45,8 @@ an unknown prop is ignored in silence.
 ## The catalogue is free, the components are not
 
 The tools here answer with what is already on the shop page. Installing the
-package needs a licence: one payment of USD 69, for life, covering every
-package published under the `@remonster` scope. Without a credential,
+package needs a licence: one payment of USD 69, for life, covering
+`@remonster/titles` and every title added to it. Without a credential,
 `npm i @remonster/titles` answers 401 saying what it is and where to buy it.
 
 The plugin stays useful either way: the skill is guidance about Remotion, and
