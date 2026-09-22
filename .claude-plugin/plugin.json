@@ -2,7 +2,7 @@
   "name": "remonster-titles",
   "displayName": "Remonster Titles",
   "version": "1.0.0",
-  "description": "Sixty-one deterministic animated title presets for Remotion: pick one from the catalogue, set its props, and get the JSX to paste.",
+  "description": "Sixty-three deterministic animated title presets for Remotion: pick one from the catalogue, set its props, and get the JSX to paste.",
   "author": {
     "name": "Portegno",
     "url": "https://remonster.io"
