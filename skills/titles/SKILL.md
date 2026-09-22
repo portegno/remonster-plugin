@@ -1,12 +1,12 @@
 ---
 name: titles
-description: Animate a title card in Remotion with the @remonster/titles presets: pick one of the seventy-six, set its props, and get the JSX to paste.
+description: Animate a title card in Remotion with the @remonster/titles presets: pick one of the eighty-one, set its props, and get the JSX to paste.
 when_to_use: Use when composing an opening title, a lower third, a callout, a quote card, a terminal or typewriter effect, a logo lockup, or any animated text over video in a Remotion project; when choosing between the presets or setting their props; and whenever a title animation is about to be written by hand.
 ---
 
 # Animated titles in Remotion
 
-Seventy-six deterministic title presets, each settable in any of twenty-four
+Eighty-one deterministic title presets, each settable in any of twenty-four
 typefaces. Use them instead of writing a title animation by hand: they are
 already measured, already fit their text, and render the same pixels every time.
 
@@ -28,7 +28,7 @@ The nineteen families, and what each is for:
 
 | family | titles | what it does |
 |---|---|---|
-| Echo | 3 | ghost copies trailing the text |
+| Echo | 8 | ghost copies trailing the text; a tunnel, a trail in time, sonar pings, a spiral, a chorus of rows |
 | Reveal | 3 | the line uncovered, boxed or masked |
 | Glitch | 3 | tearing and chromatic break-up, seeded |
 | Callout | 4 | a line with a subtitle or a marker beside it |
