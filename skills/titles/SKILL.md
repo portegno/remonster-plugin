@@ -1,12 +1,12 @@
 ---
 name: titles
-description: Animate a title card in Remotion with the @remonster/titles presets: pick one of the sixty-three, set its props, and get the JSX to paste.
+description: Animate a title card in Remotion with the @remonster/titles presets: pick one of the seventy-six, set its props, and get the JSX to paste.
 when_to_use: Use when composing an opening title, a lower third, a callout, a quote card, a terminal or typewriter effect, a logo lockup, or any animated text over video in a Remotion project; when choosing between the presets or setting their props; and whenever a title animation is about to be written by hand.
 ---
 
 # Animated titles in Remotion
 
-Sixty-three deterministic title presets, each settable in any of twenty-four
+Seventy-six deterministic title presets, each settable in any of twenty-four
 typefaces. Use them instead of writing a title animation by hand: they are
 already measured, already fit their text, and render the same pixels every time.
 
@@ -24,7 +24,7 @@ than guessing at ids or props, which is the failure that is otherwise silent:
 4. `title_snippet` to get the JSX, with only the props that differ from the
    title's own defaults written out. It names any prop the title does not take.
 
-The eighteen families, and what each is for:
+The nineteen families, and what each is for:
 
 | family | titles | what it does |
 |---|---|---|
@@ -32,7 +32,7 @@ The eighteen families, and what each is for:
 | Reveal | 3 | the line uncovered, boxed or masked |
 | Glitch | 3 | tearing and chromatic break-up, seeded |
 | Callout | 4 | a line with a subtitle or a marker beside it |
-| Terminal | 4 | a shell, a prompt, a file being read |
+| Terminal | 6 | a shell, a prompt, a file being read; typing that slips and corrects itself |
 | Typewriter | 6 | typed letter by letter; the length follows the text |
 | Gradient | 2 | a travelling fill, for a headline that must look expensive |
 | Mark | 4 | a logo lockup |
@@ -44,8 +44,9 @@ The eighteen families, and what each is for:
 | Settle | 4 | the line arriving and coming to rest |
 | Word build | 6 | assembled one word at a time |
 | Swap | 3 | one line replaced by another |
-| Board | 1 | an airport departures board: split flaps turning to each letter |
-| Glow | 1 | letters coming into focus out of a coloured halo |
+| Board | 4 | an airport departures board: split flaps turning to each letter; flat, from the side, on a dolly, from underneath |
+| Glow | 6 | lit letters: out of a coloured halo, neon tubes, a heat haze, poured liquid, light streaks, a colour wave |
+| Depth | 3 | solid 3D letters: a block that swings in, letters that stand up like a pop-up, text round a cylinder |
 
 ## Composing
 
@@ -86,6 +87,15 @@ Two that are easy to get wrong:
 - **`fit` is `true` by default**, so text too wide shrinks to a floor rather
   than overflowing. Set it `false` only when you want the size respected
   whatever the text.
+- **`font` outside the twenty-four needs registering.** Any Google Font works,
+  but only through `registerFace`; a bare name draws the title's own face:
+
+  ```jsx
+  import * as Lobster from '@remotion/google-fonts/Lobster';
+  import { registerFace, T10 } from '@remonster/titles';
+  const lobster = registerFace(Lobster);
+  <T10 font={lobster} weight={400} />
+  ```
 
 Sizes come off the short edge, `min(width, height) / 1080`, so one title sits
 the same way at 1920x1080, 1080x1080, 1080x1350 and 1080x1920. There is nothing
