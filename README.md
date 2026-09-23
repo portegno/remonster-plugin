@@ -1,7 +1,7 @@
 # Remonster Titles, for Claude Code
 
-Eighty-one deterministic animated title presets for [Remotion](https://remotion.dev),
-in nineteen families, each settable in any of twenty-four typefaces.
+One hundred deterministic animated title presets for [Remotion](https://remotion.dev),
+in twenty families, each settable in any of twenty-four typefaces.
 
 This plugin is free and holds no components. It gives Claude two things: a
 catalogue server that answers what exists and what every preset takes, and a

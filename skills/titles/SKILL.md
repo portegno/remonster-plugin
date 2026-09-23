@@ -1,12 +1,12 @@
 ---
 name: titles
-description: Animate a title card in Remotion with the @remonster/titles presets: pick one of the eighty-one, set its props, and get the JSX to paste.
+description: Animate a title card in Remotion with the @remonster/titles presets: pick one of the one hundred, set its props, and get the JSX to paste.
 when_to_use: Use when composing an opening title, a lower third, a callout, a quote card, a terminal or typewriter effect, a logo lockup, or any animated text over video in a Remotion project; when choosing between the presets or setting their props; and whenever a title animation is about to be written by hand.
 ---
 
 # Animated titles in Remotion
 
-Eighty-one deterministic title presets, each settable in any of twenty-four
+One hundred deterministic title presets, each settable in any of twenty-four
 typefaces. Use them instead of writing a title animation by hand: they are
 already measured, already fit their text, and render the same pixels every time.
 
@@ -24,27 +24,28 @@ than guessing at ids or props, which is the failure that is otherwise silent:
 4. `title_snippet` to get the JSX, with only the props that differ from the
    title's own defaults written out. It names any prop the title does not take.
 
-The nineteen families, and what each is for:
+The twenty families, and what each is for:
 
 | family | titles | what it does |
 |---|---|---|
 | Echo | 8 | ghost copies trailing the text; a tunnel, a trail in time, sonar pings, a spiral, a chorus of rows |
-| Reveal | 3 | the line uncovered, boxed or masked |
-| Glitch | 3 | tearing and chromatic break-up, seeded |
+| Reveal | 8 | the line uncovered, boxed or masked; slats, bar wipes, a window, an iris, a seam |
+| Glitch | 7 | tearing and chromatic break-up, seeded; a tape tearing, a signal in blocks, a scan dragging, a picture freezing |
 | Callout | 4 | a line with a subtitle or a marker beside it |
 | Terminal | 6 | a shell, a prompt, a file being read; typing that slips and corrects itself |
 | Typewriter | 6 | typed letter by letter; the length follows the text |
-| Gradient | 2 | a travelling fill, for a headline that must look expensive |
+| Gradient | 7 | a travelling fill, for a headline that must look expensive; heat waves, a rack focus, a horizon, a dawn sweep, taffy letters |
 | Mark | 4 | a logo lockup |
 | Gravity | 1 | a physics simulation, seeded and solved once |
 | Erosion | 8 | the text arriving out of, or breaking into, particles |
-| Rain | 1 | falling characters |
+| Rain | 3 | falling characters; and two with the title inside the grid at the rain's own size: a drop landing on each letter, or the message decrypting |
 | Arcade | 2 | pixel type and game motion |
 | Letter build | 7 | assembled one letter at a time |
 | Settle | 4 | the line arriving and coming to rest |
 | Word build | 6 | assembled one word at a time |
 | Swap | 3 | one line replaced by another |
 | Board | 4 | an airport departures board: split flaps turning to each letter; flat, from the side, on a dolly, from underneath |
+| LED | 3 | a low-resolution sign: one bulb per dot, on a grid you size; flat, in a case seen from the side, or hanging over the hall |
 | Glow | 6 | lit letters: out of a coloured halo, neon tubes, a heat haze, poured liquid, light streaks, a colour wave |
 | Depth | 3 | solid 3D letters: a block that swings in, letters that stand up like a pop-up, text round a cylinder |
 
